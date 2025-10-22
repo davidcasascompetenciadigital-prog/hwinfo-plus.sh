@@ -45,3 +45,32 @@ Instalación
   sudo apt install pciutils usbutils dmidecode lsblk  # Debian/Ubuntu
   sudo dnf install pciutils usbutils dmidecode util-linux  # Fedora
 
+Uso del Programa
+Ejecución básica:
+
+  ./hwinfo-plus.sh
+
+
+Si quieres ejecutar el programa desde cualquier ubicación, puedes copiarlo a la carpeta de binarios de usuario:
+
+# Hacer enlace simbólico para uso global
+sudo cp hwinfo-plus.sh /usr/local/bin/hwinfo-plus
+sudo chmod +x /usr/local/bin/hwinfo-plus
+hwinfo-plus  # Ahora se puede ejecutar desde cualquier lugar
+
+Características Principales
+
+    Interfaz visual moderna con colores y formato atractivo
+    Información condensada que cabe en una pantalla
+    Barras de progreso para CPU, memoria y temperatura
+    Compatibilidad amplia con múltiples distribuciones Linux
+    Sin requerimientos elevados - usa herramientas del sistema
+
+Solución de Problemas
+
+Si falta hwinfo:
+
+    El programa funcionará con herramientas alternativas
+    Se mostrará un mensaje informativo
+
+
