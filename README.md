@@ -1,86 +1,53 @@
-HWINFO SYSTEM INFO PLUS - Instrucciones de Uso / Usage Instructions
+# HWINFO System Info Plus
 
-hwinfo-plus.sh es un pequeño script que mejora la visualización de los datos obtenidos con la herramienta de terminal "hwinfo" que puedes instalar en cualquier distribución de linux.
+![Bash](https://img.shields.io/badge/Bash-4.0%2B-blue)
+![License](https://img.shields.io/badge/License-GPL--3.0-green)
+![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey)
 
-ESPAÑOL (english version scroll down)
-Instalación
-1. Descargar y hacer ejecutable el script:
+A modern, visual system information tool for Linux that displays hardware information in a beautiful, condensed format.
 
-  # Descargar el script (si no lo tienes)
-  wget https://raw.githubusercontent.com/tu-usuario/hwinfo-plus/main/hwinfo-plus.sh
+**Creator**: David Casas M. - Competencia_Digital  
+**AI Assistance**: DEEPSEEK  
+**License**: GPL-3.0  
+**YouTube**: https://youtube.com/@competencia_digital  
+**Website**: https://competenciadigital.name
 
-  # Dar permisos de ejecución
-  chmod +x hwinfo-plus.sh
+---
 
-  # Ejecutar
-  ./hwinfo-plus.sh 
+## 📖 Table of Contents / Índice
 
-2. Instalar hwinfo (dependiendo de tu distribución):
+- [English](#english)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Screenshots](#screenshots)
+  - [Troubleshooting](#troubleshooting)
+- [Español](#español)
+  - [Características](#características)
+  - [Instalación](#instalación)
+  - [Uso](#uso)
+  - [Capturas de Pantalla](#capturas-de-pantalla)
+  - [Solución de Problemas](#solución-de-problemas)
 
-  Debian/Ubuntu/Linux Mint:
+---
 
-  sudo apt update
-  sudo apt install hwinfo
+## ENGLISH
 
-  Red Hat/CentOS/Fedora:
+### Features
 
-  # Para Fedora
-  sudo dnf install hwinfo
+- 🎨 **Modern visual interface** with colors and attractive formatting
+- 📊 **Condensed information** that fits on one screen
+- 📈 **Progress bars** for CPU, memory and temperature
+- 🔧 **Wide compatibility** with multiple Linux distributions
+- ⚡ **No high requirements** - uses system tools
+- 🖥️ **Complete hardware overview** including CPU, motherboard, RAM, storage, and network
 
-  # Para CentOS/RHEL
-  sudo yum install hwinfo
+### Installation
 
-  Arch Linux/Manjaro
+#### 1. Download and make the script executable:
 
-  sudo pacman -S hwinfo
-
-  openSUSE
-
-  sudo zypper install hwinfo
-
-
-3. Instalar herramientas adicionales recomendadas:
-
-  # Para todas las distribuciones (herramientas básicas)
-  sudo apt install pciutils usbutils dmidecode lsblk  # Debian/Ubuntu
-  sudo dnf install pciutils usbutils dmidecode util-linux  # Fedora
-
-Uso del Programa
-Ejecución básica:
-
-  ./hwinfo-plus.sh
-
-
-Si quieres ejecutar el programa desde cualquier ubicación, puedes copiarlo a la carpeta de binarios de usuario:
-
-# Hacer enlace simbólico para uso global
-sudo cp hwinfo-plus.sh /usr/local/bin/hwinfo-plus
-sudo chmod +x /usr/local/bin/hwinfo-plus
-hwinfo-plus  # Ahora se puede ejecutar desde cualquier lugar
-
-Características Principales
-
-    Interfaz visual moderna con colores y formato atractivo
-    Información condensada que cabe en una pantalla
-    Barras de progreso para CPU, memoria y temperatura
-    Compatibilidad amplia con múltiples distribuciones Linux
-    Sin requerimientos elevados - usa herramientas del sistema
-
-Solución de Problemas
-
-Si falta hwinfo:
-
-    El programa funcionará con herramientas alternativas
-    Se mostrará un mensaje informativo
-
-ENGLISH
-
-Installation
-
-1. Download and make the script executable:
-bash
-
-# Download the script (if you don't have it)
+```bash
+# Download the script
 wget https://raw.githubusercontent.com/your-username/hwinfo-plus/main/hwinfo-plus.sh
 
 # Give execution permissions
@@ -119,36 +86,312 @@ sudo zypper install hwinfo
 3. Install recommended additional tools:
 bash
 
-# For all distributions (basic tools)
-sudo apt install pciutils usbutils dmidecode lsblk  # Debian/Ubuntu
-sudo dnf install pciutils usbutils dmidecode util-linux  # Fedora
+# For Debian/Ubuntu
+sudo apt install pciutils usbutils dmidecode lsblk
 
-Program Usage
+# For Fedora/RHEL
+sudo dnf install pciutils usbutils dmidecode util-linux
 
+# For Arch Linux
+sudo pacman -S pciutils usbutils dmidecode util-linux
+
+# For openSUSE
+sudo zypper install pciutils usbutils dmidecode util-linux
+
+Usage
 Basic execution:
 bash
 
 ./hwinfo-plus.sh
 
-If you want to run the program from any location, you can copy it to the user binaries folder:
+Menu Options:
+
+    Full System Information - All hardware components
+
+    Quick System Overview - Essential summarized information
+
+    CPU & Motherboard Detailed - Complete technical specifications
+
+    CPU & Memory Only - Processor and RAM information
+
+    Storage Information - Disks, partitions, and controllers
+
+    Network Information - Interfaces and network controllers
+
+    Motherboard Information - Specific motherboard details
+
+    License Information - GPL-3.0 license details
+
+    Exit - Close the program
+
+Advanced usage - Global installation:
 bash
 
 # Create symbolic link for global use
 sudo cp hwinfo-plus.sh /usr/local/bin/hwinfo-plus
 sudo chmod +x /usr/local/bin/hwinfo-plus
-hwinfo-plus  # Now it can be executed from anywhere
 
-Key Features
+# Now you can run from anywhere
+hwinfo-plus
 
-    Modern visual interface with colors and attractive formatting
-    Condensed information that fits on one screen
-    Progress bars for CPU, memory and temperature
-    Wide compatibility with multiple Linux distributions
-    No high requirements - uses system tools
+Screenshots
+text
+
+╔══════════════════════════════════════════════════════════════╗
+║                   HWINFO - SYSTEM INFO PLUS                  ║
+║                    Modern System Scanner                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+Creator: David Casas M. - Competencia_Digital
+YouTube: https://youtube.com/@competencia_digital
+Website: https://competenciadigital.name
+License: GPL-3.0 | Created with AI assistance
+
+╔══════════════════════════════════════════════════════════════╗
+║                     SELECT AN OPTION                         ║
+╠══════════════════════════════════════════════════════════════╣
+║ 1) Full System Information                          ║
+║ 2) Quick System Overview                            ║
+║ 3) CPU & Motherboard Detailed                       ║
+║ 4) CPU & Memory Only                                ║
+║ 5) Storage Information                              ║
+║ 6) Network Information                              ║
+║ 7) Motherboard Information                          ║
+║ 8) License Information                              ║
+║ 0) Exit                                          ║
+╚══════════════════════════════════════════════════════════════╝
+Select option [0-8]:
 
 Troubleshooting
 
 If hwinfo is missing:
 
-    The program will work with alternative tools
+    The program will work with alternative system tools
+
     An informative message will be displayed
+
+If there are permission problems:
+bash
+
+chmod +x hwinfo-plus.sh
+
+If colors don't appear:
+bash
+
+TERM=xterm-256color ./hwinfo-plus.sh
+
+System Requirements:
+
+    Bash 4.0 or higher
+
+    Terminal that supports colors (most modern terminals)
+
+    Basic Linux tools (usually installed by default)
+
+Tested Distributions:
+
+    Ubuntu 20.04+
+
+    Debian 11+
+
+    Fedora 35+
+
+    CentOS 8+
+
+    Arch Linux
+
+    Linux Mint
+
+ESPAÑOL
+Características
+
+    🎨 Interfaz visual moderna con colores y formato atractivo
+
+    📊 Información condensada que cabe en una pantalla
+
+    📈 Barras de progreso para CPU, memoria y temperatura
+
+    🔧 Compatibilidad amplia con múltiples distribuciones Linux
+
+    ⚡ Sin requerimientos elevados - usa herramientas del sistema
+
+    🖥️ Visión completa del hardware incluyendo CPU, placa base, RAM, almacenamiento y red
+
+Instalación
+1. Descargar y hacer ejecutable el script:
+bash
+
+# Descargar el script
+wget https://raw.githubusercontent.com/tu-usuario/hwinfo-plus/main/hwinfo-plus.sh
+
+# Dar permisos de ejecución
+chmod +x hwinfo-plus.sh
+
+# Ejecutar
+./hwinfo-plus.sh
+
+2. Instalar hwinfo (dependiendo de tu distribución):
+
+Debian/Ubuntu/Linux Mint:
+bash
+
+sudo apt update
+sudo apt install hwinfo
+
+Red Hat/CentOS/Fedora:
+bash
+
+# Para Fedora
+sudo dnf install hwinfo
+
+# Para CentOS/RHEL
+sudo yum install hwinfo
+
+Arch Linux/Manjaro:
+bash
+
+sudo pacman -S hwinfo
+
+openSUSE:
+bash
+
+sudo zypper install hwinfo
+
+3. Instalar herramientas adicionales recomendadas:
+bash
+
+# Para Debian/Ubuntu
+sudo apt install pciutils usbutils dmidecode lsblk
+
+# Para Fedora/RHEL
+sudo dnf install pciutils usbutils dmidecode util-linux
+
+# Para Arch Linux
+sudo pacman -S pciutils usbutils dmidecode util-linux
+
+# Para openSUSE
+sudo zypper install pciutils usbutils dmidecode util-linux
+
+Uso
+Ejecución básica:
+bash
+
+./hwinfo-plus.sh
+
+Opciones del menú:
+
+    Información completa del sistema - Todos los componentes de hardware
+
+    Vista rápida del sistema - Información esencial resumida
+
+    CPU y Placa Base detallado - Especificaciones técnicas completas
+
+    CPU y Memoria - Información del procesador y RAM
+
+    Información de almacenamiento - Discos, particiones y controladores
+
+    Información de red - Interfaces y controladores de red
+
+    Información de la placa base - Detalles específicos de la motherboard
+
+    Información de licencia - Detalles de la licencia GPL-3.0
+
+    Salir - Cerrar el programa
+
+Uso avanzado - Instalación global:
+bash
+
+# Hacer enlace simbólico para uso global
+sudo cp hwinfo-plus.sh /usr/local/bin/hwinfo-plus
+sudo chmod +x /usr/local/bin/hwinfo-plus
+
+# Ahora se puede ejecutar desde cualquier lugar
+hwinfo-plus
+
+Capturas de Pantalla
+text
+
+╔══════════════════════════════════════════════════════════════╗
+║                   HWINFO - SYSTEM INFO PLUS                  ║
+║                    Modern System Scanner                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+Creador: David Casas M. - Competencia_Digital
+YouTube: https://youtube.com/@competencia_digital
+Sitio web: https://competenciadigital.name
+Licencia: GPL-3.0 | Creado con ayuda de IA
+
+╔══════════════════════════════════════════════════════════════╗
+║                     SELECCIONE UNA OPCIÓN                    ║
+╠══════════════════════════════════════════════════════════════╣
+║ 1) Información completa del sistema                 ║
+║ 2) Vista rápida del sistema                         ║
+║ 3) CPU y Placa Base detallado                       ║
+║ 4) CPU y Memoria                                    ║
+║ 5) Información de almacenamiento                    ║
+║ 6) Información de red                               ║
+║ 7) Información de la placa base                     ║
+║ 8) Información de licencia                          ║
+║ 0) Salir                                            ║
+╚══════════════════════════════════════════════════════════════╝
+Seleccione opción [0-8]:
+
+Solución de Problemas
+
+Si falta hwinfo:
+
+    El programa funcionará con herramientas alternativas del sistema
+
+    Se mostrará un mensaje informativo
+
+Si hay problemas de permisos:
+bash
+
+chmod +x hwinfo-plus.sh
+
+Si no se ven colores:
+bash
+
+TERM=xterm-256color ./hwinfo-plus.sh
+
+Requisitos del sistema:
+
+    Bash 4.0 o superior
+
+    Terminal que soporte colores (la mayoría de terminales modernos)
+
+    Herramientas básicas de Linux (generalmente instaladas por defecto)
+
+Distribuciones probadas:
+
+    Ubuntu 20.04+
+
+    Debian 11+
+
+    Fedora 35+
+
+    CentOS 8+
+
+    Arch Linux
+
+    Linux Mint
+
+📄 License / Licencia
+
+This project is licensed under the GPL-3.0 License - see the LICENSE file for details.
+
+Este proyecto está bajo la Licencia GPL-3.0 - ver el archivo LICENSE para más detalles.
+🤝 Contributing / Contribuciones
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+¡Las contribuciones son bienvenidas! Siéntete libre de enviar un Pull Request.
+📧 Contact / Contacto
+
+    YouTube: https://youtube.com/@competencia_digital
+
+    Website: https://competenciadigital.name
+
+    Creator: David Casas M.
+
+⭐ If you find this project useful, please give it a star! / ⭐ Si encuentras útil este proyecto, ¡por favor dale una estrella!
