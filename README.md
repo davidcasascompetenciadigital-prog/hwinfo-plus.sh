@@ -56,6 +56,7 @@ chmod +x hwinfo-plus.sh
 # Execute
 ./hwinfo-plus.sh
 
+
 2. Install hwinfo (depending on your distribution):
 
 Debian/Ubuntu/Linux Mint:
@@ -133,34 +134,6 @@ sudo chmod +x /usr/local/bin/hwinfo-plus
 
 # Now you can run from anywhere
 hwinfo-plus
-
-Screenshots
-text
-
-╔══════════════════════════════════════════════════════════════╗
-║                   HWINFO - SYSTEM INFO PLUS                  ║
-║                    Modern System Scanner                     ║
-╚══════════════════════════════════════════════════════════════╝
-
-Creator: David Casas M. - Competencia_Digital
-YouTube: https://youtube.com/@competencia_digital
-Website: https://competenciadigital.name
-License: GPL-3.0 | Created with AI assistance
-
-╔══════════════════════════════════════════════════════════════╗
-║                     SELECT AN OPTION                         ║
-╠══════════════════════════════════════════════════════════════╣
-║ 1) Full System Information                          ║
-║ 2) Quick System Overview                            ║
-║ 3) CPU & Motherboard Detailed                       ║
-║ 4) CPU & Memory Only                                ║
-║ 5) Storage Information                              ║
-║ 6) Network Information                              ║
-║ 7) Motherboard Information                          ║
-║ 8) License Information                              ║
-║ 0) Exit                                          ║
-╚══════════════════════════════════════════════════════════════╝
-Select option [0-8]:
 
 Troubleshooting
 
@@ -308,34 +281,6 @@ sudo chmod +x /usr/local/bin/hwinfo-plus
 # Ahora se puede ejecutar desde cualquier lugar
 hwinfo-plus
 
-Capturas de Pantalla
-text
-
-╔══════════════════════════════════════════════════════════════╗
-║                   HWINFO - SYSTEM INFO PLUS                  ║
-║                    Modern System Scanner                     ║
-╚══════════════════════════════════════════════════════════════╝
-
-Creador: David Casas M. - Competencia_Digital
-YouTube: https://youtube.com/@competencia_digital
-Sitio web: https://competenciadigital.name
-Licencia: GPL-3.0 | Creado con ayuda de IA
-
-╔══════════════════════════════════════════════════════════════╗
-║                     SELECCIONE UNA OPCIÓN                    ║
-╠══════════════════════════════════════════════════════════════╣
-║ 1) Información completa del sistema                 ║
-║ 2) Vista rápida del sistema                         ║
-║ 3) CPU y Placa Base detallado                       ║
-║ 4) CPU y Memoria                                    ║
-║ 5) Información de almacenamiento                    ║
-║ 6) Información de red                               ║
-║ 7) Información de la placa base                     ║
-║ 8) Información de licencia                          ║
-║ 0) Salir                                            ║
-╚══════════════════════════════════════════════════════════════╝
-Seleccione opción [0-8]:
-
 Solución de Problemas
 
 Si falta hwinfo:
@@ -378,9 +323,9 @@ Distribuciones probadas:
 
 📄 License / Licencia
 
-This project is licensed under the GPL-3.0 License - see the LICENSE file for details.
+This project is licensed under the GPL-3.0 License.
 
-Este proyecto está bajo la Licencia GPL-3.0 - ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia GPL-3.0.
 🤝 Contributing / Contribuciones
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -395,3 +340,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
     Creator: David Casas M.
 
 ⭐ If you find this project useful, please give it a star! / ⭐ Si encuentras útil este proyecto, ¡por favor dale una estrella!
+
