@@ -48,7 +48,7 @@ A modern, visual system information tool for Linux that displays hardware inform
 
 ```bash
 # Download the script
-wget https://raw.githubusercontent.com/your-username/hwinfo-plus/main/hwinfo-plus.sh
+wget https://raw.githubusercontent.com/davidcasascompetenciadigital-prog/hwinfo-plus/main/hwinfo-plus.sh
 
 # Give execution permissions
 chmod +x hwinfo-plus.sh
